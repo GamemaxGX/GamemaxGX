@@ -1,4 +1,4 @@
-name: Generate Datas
+name: Gerar Dados
 
 on:
   schedule: # execute every 12 hours
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Jobs to update datas
+    name: Trabalhos para atualizar dados
     runs-on: ubuntu-latest
     steps:
       # Snake Animation
